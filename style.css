@@ -268,10 +268,10 @@ footer button {
    body {
       overflow-x: hidden;
       padding: 0rem;
-      /* background: url('./assets//images/small-background.jpg');
-      background-size: cover; 
-      background-repeat: no-repeat; 
-      background-position: center; */
+      background: url('./assets//images/small-background.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
    }
 
    main {
