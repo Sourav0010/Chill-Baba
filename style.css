@@ -88,8 +88,9 @@ main {
    font-family: 'ZabalB';
    font-style: bold;
    font-size: 2.5rem;
-   color: #2f8376;
+   color: #ffffff;
    width: 72%;
+   text-shadow: rgb(26, 26, 26) 0.1em 0.1em 0.1em;
 }
 
 .hero-text button {
@@ -115,6 +116,15 @@ section {
 section div h2 {
    color: white;
    font-family: 'ZabalR';
+}
+
+section div p {
+   color: white;
+   font-family: 'ZabalR';
+   font-size: 1.3rem;
+   max-width: 20rem;
+   text-align: center;
+   padding: 2rem 0rem;
 }
 
 section div {
@@ -258,7 +268,12 @@ footer button {
    body {
       overflow-x: hidden;
       padding: 0rem;
+      /* background: url('./assets//images/small-background.jpg');
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      background-position: center; */
    }
+
    main {
       height: 80vh;
       padding: 0rem 2rem;
@@ -274,6 +289,7 @@ footer button {
    .hero-text h2 {
       font-size: 1.5rem;
       width: 100%;
+      text-align: center;
    }
 
    .hero-text button,
