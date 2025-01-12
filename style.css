@@ -115,7 +115,8 @@ section {
 
 section div h2 {
    color: white;
-   font-family: 'ZabalR';
+   font-family: 'ZabalB';
+   padding: 1rem 0rem;
 }
 
 section div p {
@@ -275,7 +276,7 @@ footer button {
    }
 
    main {
-      height: 80vh;
+      height: 50vh;
       padding: 0rem 2rem;
       flex-direction: column-reverse;
    }
